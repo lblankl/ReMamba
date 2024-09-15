@@ -5,7 +5,7 @@
 
 <a href="https://arxiv.org/abs/2408.15496"><img src="img/remamba.png"></a>
 
-ReMamba, a model that improves the long-context ability of Mamba incuring 
+ReMamba, a model that improves the long-context ability of Mamba incurring small inference cost.
 <!-- 
 <img src="etc/doc_ret.jpeg" width="90%"/>   <br>
 <img src="etc/niah.png" width="90%"/>   -->
