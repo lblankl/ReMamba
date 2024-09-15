@@ -44,7 +44,7 @@ sh ./sh/llamadata.sh
 Here the max length is set to 2k.
 please modify the normal_datapath and long_datapath to your own data paths.
 
-"topic_retrieval_longchat",
+
 # Training
 For ReMamba, we use the huggingface implementation because we can witness best performance here.
 run:
@@ -103,6 +103,7 @@ cd LEval/hopeRemaba
 sh  ./loopRemamba.sh
 sh  ./loopReMamba2.sh
 ```
+The "topic_retrieval_longchat" task is removed corresponding to the original paper setting. You can also add it in the evaluation list.
 <br>
 
 # Speed performance
