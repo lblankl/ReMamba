@@ -1,0 +1,1 @@
+nohup python ./dataprocess.py > ./sh/out/out  2>&1 &

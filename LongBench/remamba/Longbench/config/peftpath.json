@@ -1,0 +1,21 @@
+{
+   
+    "llama2-7b-chat-4k": "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/llama7b/end",
+    "llama2-3b": "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/llama3b/end",
+    "gemma2b":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/gemma2b/end" ,
+    "mamba2.8b":"",
+    "conmamba":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/conmaban/61604end",
+    "remamba":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/ReMamba/62373end",
+    "remamba_hybrid":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/Remamba-gist-Hybrid/66000",
+    "remamba_append":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/Remamba-gist-appendprompt/66000",
+    "remamba_allselect":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/Remamba-gist-Hybrid-allselect/66000",
+    "ReMamba_nogist":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/Remamba-gist-Hybrid-allselect/66000",
+    "ReMamba_branch":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/Remamba-gist-Hybrid-allselect/66000",
+    "ReMamba_branchad":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/Remamba-gist-Hybrid-allselect/66000",
+    "ReMamba_branch_select":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/ConMamba/out/Remamba-gist-Hybrid-allselect/66000",
+    "ReMamba_branchadfast":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/LLMs/state-spaces/mamba-2.8b-nohf",
+    "ReMamba_branchad_Tifast":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/LLMs/state-spaces/mamba-2.8b-nohf",
+    "ReMamba_branchad_Ti":"/mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/LLMs/state-spaces/mamba-2.8b-nohf",
+    "ReMambafast":"",
+    "mamba2fast":""
+}

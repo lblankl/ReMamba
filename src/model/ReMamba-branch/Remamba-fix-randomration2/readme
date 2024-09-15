@@ -1,0 +1,5 @@
+#Method:  this script add special token to the input_ids.Moreover, this special token is appended to the end of the prompt in select situation
+
+#aux_loss is used to predict whether to select.
+#select range 1/20-0.3
+#here we all use sample.

@@ -1,0 +1,55 @@
+# 表示作业的基本信息，自动填充，请勿修改
+[base]
+type = ml-easy-job
+
+[resource]
+usergroup = hadoop-aipnlp
+queue =root.zw05_training_cluster.hadoop-aipnlp.llm_ext
+#  root.zw05_training_cluster.hadoop-aipnlp.training01
+# root.zw05_training_cluster.hadoop-aipnlp.llm_ext
+#root.zw05_training_cluster.hadoop-aipnlp.llm_ext
+[roles]
+workers = 1
+worker.memory = 819200
+worker.vcore = 144
+worker.gcores80g = 8
+# worker启动后执行的脚本，一般为训练作业的执行命令
+worker.script = sh ./sh/deepspeedtransformer.sh
+
+# worker端python脚本的输入参数
+# # 可以设置args.batch_size = 32，则会向worker.script追加参数--batch_size=32
+[user_args]
+
+[am]
+afo.app.am.resource.mb = 4096
+
+[tensorboard]
+with.tensor.board = true
+
+# docker环境配置
+[docker]
+afo.docker.image.name = registryonline-hulk.sankuai.com/custom_prod/com.sankuai.data.hadoop.gpu/data-hadoop-aipnlp_sagahashash-df1fc3c1
+
+# 是否使用预拉取
+[data]
+afo.data.prefetch=false
+
+# 是否支持容错
+[failover]
+afo.app.support.engine.failover=true
+
+[conda]
+#afo.conda.env.name = base
+#afo.conda.env.path = /mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/miniconda3
+
+[config]
+# config.file =
+
+[others]
+# pytorch dataloader可能会用到共享内存，配置需要的共享内存（单位为B）
+# afo.app.env.YARN_CONTAINER_RUNTIME_DOCKER_SHM_SIZE_BYTES=20000
+# 作业结束后，会通过大象通知用户
+afo.xm.notice.receivers.account=yuandanlong
+with_requirements = false
+afo.docker.rw.volume.paths = /mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/concept/conceptTransformer248/outp/out13-1-300Ultrall
+afo.app.env.YARN_CONTAINER_RUNTIME_DOCKER_SHM_SIZE_BYTES=429496729600

@@ -1,0 +1,41 @@
+[base]
+type = ml-easy-job
+
+[resource]
+usergroup = hadoop-aipnlp
+queue = root.zw05_training_cluster.hadoop-aipnlp.llm_second
+
+[roles]
+workers = 1
+worker.memory = 819200
+worker.vcore = 144
+worker.gcores80g = 8
+worker.script = sh ./sh/remamba.sh
+
+[user_args]
+
+[am]
+afo.app.am.resource.mb = 4096
+
+[tensorboard]
+with.tensor.board = true
+
+[docker]
+afo.docker.image.name = registryonline-hulk.sankuai.com/custom_prod/com.sankuai.data.hadoop.gpu/data-hadoop-aipnlp_sagahashash-df1fc3c1
+
+[data]
+afo.data.prefetch = false
+
+[failover]
+afo.app.support.engine.failover = true
+
+[conda]
+
+[config]
+
+[others]
+afo.xm.notice.receivers.account = yuandanlong
+with_requirements = false
+afo.docker.rw.volume.paths = /mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/concept/conceptTransformer248/outp/out13-1-300Ultrall
+afo.app.env.YARN_CONTAINER_RUNTIME_DOCKER_SHM_SIZE_BYTES = 429496729600
+

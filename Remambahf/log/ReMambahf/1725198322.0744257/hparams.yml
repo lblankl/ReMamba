@@ -1,0 +1,9 @@
+batch_size: 1
+epochs: 1
+eval_batch_size: 1
+eval_steps: 500000
+logging_dir: /mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/Open/remamba/Remambahf/log
+logging_steps: 32
+output_dir: /mnt/dolphinfs/hdd_pool/docker/user/hadoop-aipnlp/yuandl/Open/remamba/Remambahf/out/ReMambahf
+save_steps: 3000
+save_total_limit: 2
