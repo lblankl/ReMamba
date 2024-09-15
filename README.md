@@ -5,17 +5,12 @@
 
 <a href="https://arxiv.org/abs/2408.15496"><img src="img/remamba.png"></a>
 
-ReMamba, a model that improves the long-context ability of Mamba incurring small inference cost.
-<!-- 
-<img src="etc/doc_ret.jpeg" width="90%"/>   <br>
-<img src="etc/niah.png" width="90%"/>   -->
-
 </p>
-<!-- <br>
 
 
 
-<br> -->
+
+<br>
 
 # Setup
 ## Clone Project
@@ -87,9 +82,8 @@ You also need to modify some parameters here.
 # Evaluate ReMamba
 We uploaded the weights of the ReMamba:
 |Eval ID|Model type | Checkpoint | 
-|----------|----------|----------|------------|
+|----------|----------|----------|
 |0|ReMamba|[🤗 assafbk/decimamba-130m-squad-doc-ret](https://huggingface.co/assafbk/decimamba-130m-squad-doc-ret)|
-<!-- |1|ReMamba2|[🤗 assafbk/decimamba-130m-squad-doc-ret](https://huggingface.co/assafbk/decimamba-130m-squad-doc-ret)| -->
 
 <br>
 
