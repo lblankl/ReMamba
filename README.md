@@ -83,7 +83,7 @@ You also need to modify some parameters here.
 We uploaded the weights of the ReMamba:
 |Eval ID|Model type | Checkpoint | 
 |----------|----------|----------|
-|0|ReMamba|[🤗 assafbk/decimamba-130m-squad-doc-ret](https://huggingface.co/assafbk/decimamba-130m-squad-doc-ret)|
+|0|ReMamba|[🤗 lblankl/ReMamba](https://huggingface.co/lblankl/ReMamba)|
 
 <br>
 
