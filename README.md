@@ -15,7 +15,7 @@
 # Setup
 ## Clone Project
 ```
-git clone https://github.com/yuandanlong/ReMamba.git
+git clone https://github.com/lblankl/ReMamba.git
 cd ReMamba
 ```
 
