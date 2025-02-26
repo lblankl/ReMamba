@@ -72,7 +72,7 @@ sh ./sh/deepspeedmamba2.8.sh
 ```
 You need to modify some parameters in the ModelArguments of ./deepspeedmamba2.8.py
 
-To train llama2-3b just run:
+To train llam-3b just run:
 ```
 cd hope-llama3b-longctx
 sh ./sh/deepspeedtransformer.sh
